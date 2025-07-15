@@ -1,7 +1,7 @@
 // script.js
 
 // সবচেয়ে জরুরি কাজ: এখানে তোমার সেই যাদুকরী দূতের ঠিকানাটা বসাও।
-const SCRIPT_URL = "YOUR_API_URL_HERE"; 
+const SCRIPT_URL = "https://script.google.com/macros/s/AKfycbye2HChy4pAKR7ATaIAYTVm7h_LUAiTLaVZK36vWGTG1FaJ6iozxNJIDwprF-DjETcduQ/exec"; 
 
 document.addEventListener("DOMContentLoaded", () => {
     fetch(`${SCRIPT_URL}?function=getInitialData`)
